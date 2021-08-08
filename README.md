@@ -25,8 +25,7 @@ Step 2. Add the dependency
 
 In kotlin
 
-	var md5HashCrc8 = Md5HashCRC8()
-	var uniqueId = md5HashCrc8.getUniqueId("cheers")
+	var uniqueId = Md5HashCRC8.getUniqueId("cheers")
 
 
 ## Sample screenshot
