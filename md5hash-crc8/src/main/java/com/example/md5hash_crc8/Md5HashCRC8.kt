@@ -2,7 +2,7 @@ package com.example.md5hash_crc8
 
 import java.security.MessageDigest
 
-class Md5HashCRC8 {
+object Md5HashCRC8 {
 
     private fun ByteArray.toHex(): String {
         return joinToString("") { "%02x".format(it) }

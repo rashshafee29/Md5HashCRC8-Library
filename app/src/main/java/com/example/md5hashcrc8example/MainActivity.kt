@@ -12,15 +12,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val uniqueId = Md5HashCRC8()
-
         val editText: EditText = findViewById(R.id.edit_text)
         val textView: TextView = findViewById(R.id.text)
         val btn: Button = findViewById(R.id.btn)
 
         btn.setOnClickListener {
             if(editText.text.toString() != ""){
-                textView.text = uniqueId.getUniqueId(editText.text.toString())
+                textView.text = Md5HashCRC8.getUniqueId(editText.text.toString())
             }
         }
     }
