@@ -27,3 +27,8 @@ In kotlin
 
 	var md5HashCrc8 = Md5HashCRC8()
 	var uniqueId = md5HashCrc8.getUniqueId("cheers")
+
+
+## Sample screenshot
+![Screenshot_1628423861](https://user-images.githubusercontent.com/16789770/128631374-56c791ce-1980-4803-8d96-f5904c54bc60.png)
+
