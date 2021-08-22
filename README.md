@@ -2,7 +2,7 @@
 
 A simple library to get unique id for any string using md5 hashing and crc8 checksum
 
-## How to include in you project?
+## How to include it in your project?
 
 Step 1. Add the JitPack repository to your build file for gradle
 Add it in your root build.gradle at the end of repositories:
@@ -21,7 +21,7 @@ Step 2. Add the dependency
 	}
 
 
-## How to use?
+## How to use it?
 
 In kotlin
 
